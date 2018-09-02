@@ -1,20 +1,4 @@
 #!/usr/bin/env python
-#
-#    Copyright 2012, Jose Ignacio Galarza <igalarzab@gmail.com>.
-#    This file is part of avi2mkv.
-#
-#    avi2mkv is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    avi2mkv is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU General Public License
-#    along with avi2mkv.  If not, see <http://www.gnu.org/licenses/>.
 
 import glob
 import logging
@@ -24,16 +8,14 @@ import sys
 import shutil
 import tkinter
 from tkinter import filedialog
-
 from optparse import OptionParser
 
 # Global information
-__uname__ = 'all2mkv'
-__long_name__ = 'Convert all movies into MKV+ add all subtitles'
+__uname__ = 'crkMKV'
+__long_name__ = 'Convert all movies into MKV & add all subtitles'
 __version__ = '0.1'
 __author__ = 'Denis Sandor'
 __email__ = 'dxcore35@gmail.com'
-__url__ = 'http://x'
 __license__ = 'MIT'
 
 # Colors (ANSI)
